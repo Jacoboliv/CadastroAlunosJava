@@ -1,0 +1,19 @@
+observações: 
+
+baixar as fontes:
+Indie Flower e Roboto
+
+
+- lembrar de criar as classes DTO E DAO
+ baixar o xamps e o mysql aqui está o código:
+ 
+CREATE DATABASE IF NOT EXISTS Cadastro;
+USE Cadastro;
+
+CREATE TABLE IF NOT EXISTS alunos (
+	nome VARCHAR(100),
+    matricula VARCHAR(50),
+    turma VARCHAR(50)
+);
+
+SELECT * FROM alunos;
